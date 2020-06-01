@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Welcome</string>
+    <string name="due_date_minute_less_than_ten">%1$s %2$d %3$d %4$d:0%5$d</string>
+    <string name="due_date_minute_greater_than_ten">%1$s %2$d %3$d %4$d:%5$d</string>
+    <string name="no_due_is_set">jatuh tempo belum dipilih</string>
+    <string name="enter_title">Isi nama List</string>
+    <string name="note">catatan</string>
+    <string name="pick_a_due_date">jatuh tempo (Tanggal)</string>
+    <string name="pick_a_due_time">jatuh tempo (Jam)</string>
+    <string name="edit_item">edit</string>
+    <string name="create_item">create</string>
+    <string name="mark_as_incomplete">Tandai belum selesai</string>
+    <string name="mark_as_complete">Tandai sudah selesai</string>
+    <string name="search">Searching</string>
+    <string name="create_items">Create</string>
+    <string name="image">image</string>
+    <string name="how_many_item_do_you_want_to_create">berapa banyak item yang dibuat</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">create</string>
+    <string name="input_nama">Richard Christopher Suwandi</string>
+    <string name="jurusan">Teknik Informatika</string>
+    <string name="aboutme">About Me</string>
+    <string name="nim">D121181504</string>
+    <string name="sort">urutkan</string>
+    <string name="jam_bermasalah">jam bermasalah (Invalid)</string>
+    <string name="angkatan">2018</string>
+</resources>

@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.MainActivity">
+    <item
+        android:id="@+id/search_todo"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/aboutme"
+        app:showAsAction="ifRoom" />
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/sort" >
+
+        <item
+            android:id="@+id/sortByTempo"
+            android:title="urutkan berdasar jatuh tempo"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/sortByBuat"
+            android:title="urutkan berdasar tanggal dibuat"
+            app:showAsAction="never"/>
+    </group>
+
+
+</menu>
